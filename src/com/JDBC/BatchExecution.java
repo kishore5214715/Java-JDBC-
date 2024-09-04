@@ -23,7 +23,7 @@ public class BatchExecution {
                 //add to the batches
                 preparedStatement.addBatch();
             }
-            //execute hte batches
+            //execute the batches
             preparedStatement.executeBatch();
             System.out.println("Done");
         }
